@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin:0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+.nav{
+    height: 76px;
+background: #000;
+padding: 15px 0;
+}
+.nav__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo{
+    color: #FFF;
+font-family: Arial;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+}
+.nav__list{
+    display: flex;
+    gap: 79px;
+    list-style: none;
+}
+.nav__link{
+    color: #FFF;
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.header__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/Rectangle\ 2.png);
+    height: 850px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header__title{
+    display: flex; 
+    
+    margin-bottom: 155px;
+    color: #000;
+font-family: Arial;
+font-size: 40px;
+font-style: normal;
+}
+.header__link{
+    display: flex;
+    margin:0 auto ;
+    text-decoration: none;
+    width: 237px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Arial;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 24px;
+}
+.main__section{
+background: #0E1C25;
+
+
+}
+.main__title{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 49px;
+    color: #FFF;
+font-family: Arial;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.main__content{
+    display: flex;
+    padding-bottom: 125px;
+   gap: 106px;
+}
+.main__text_title{
+    display: flex;
+    padding-bottom: 64px;
+    color: #FFF;
+font-family: Arial;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.main_text2{
+    width: 466px;
+height: 397px;
+flex-shrink: 0;
+color: #FFF;
+text-align: justify;
+font-family: Arial;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.main_section2{
+   
+background: #5C6B81;
+}
+.main__title2{
+    padding-top: 43px;
+    color: #FFF;
+text-align: center;
+font-family: Arial;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.main__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 312px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #B12B06;
+}
+.img_1{
+    padding-top: 15px;
+    width: 282px;
+height: 265px;
+flex-shrink: 0;
+border-radius: 10px;
+}
+.card__title{
+    display: flex;
+    margin-top: 10px;
+    color: #FFF;
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.card__text{
+    width: 264px;
+    padding-top: 21px;
+color: #FFF;
+text-align: center;
+font-family: Arial;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.card__link{
+    display: flex;
+    text-decoration: none;
+    padding: 8px 25px;
+    margin-top: 27px;
+    color: #000;
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 168px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+}
+.main__imgs{
+    margin-top: 77px;
+  padding-bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 45px;
+}
+.footer{
+  
+flex-shrink: 0;
+background: #000;
+}
+.footer__title{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 47px;
+    color: #FFF;
+text-align: center;
+font-family: Arial;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer_imgs{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+    gap: 200px;
+
+}
+.nav__menu{
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+.nav__close{
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+input{
+    display: none;
+}
+.header{
+    overflow-x: hidden;
+} 
